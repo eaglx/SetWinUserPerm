@@ -49,7 +49,7 @@ bool InitLsaString(PLSA_UNICODE_STRING pLsaString, LPCWSTR pwszString)
     return TRUE;
 }
 
-// Convert a string to a wstring
+// Convert string to wstring
 void convertStringToWString(std::wstring& ws, const std::string& s)
 {
     std::wstring wsTmp(s.begin(), s.end());
